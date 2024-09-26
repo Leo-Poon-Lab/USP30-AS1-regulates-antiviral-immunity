@@ -18,4 +18,4 @@ GTF: https://ftp.ensembl.org/pub/release-91/gtf/homo_sapiens/Homo_sapiens.GRCh38
 ***
 
 # Notes
-The raw sequencing data will be uploaded to the NCBI Sequence Read Archive (SRA).[to be updated]
+The raw sequencing data will be uploaded to the NCBI Sequence Read Archive (SRA). (to be updated)
