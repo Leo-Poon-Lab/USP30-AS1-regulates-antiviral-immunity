@@ -15,4 +15,7 @@ GTF: https://ftp.ensembl.org/pub/release-91/gtf/homo_sapiens/Homo_sapiens.GRCh38
 # Results
 - metadata.xlsx comprises essential sample and grouping details.
 - raw_counts.xlsx represents the gene expression data obtained through the aforementioned processing methods. These counts serve as the foundation for conducting differential expression analysis, allowing for the identification of genes that exhibit significant changes in expression under different experimental conditions.
+***
 
+# Notes
+The raw sequencing data will be uploaded to the NCBI Sequence Read Archive (SRA).[to be updated]
