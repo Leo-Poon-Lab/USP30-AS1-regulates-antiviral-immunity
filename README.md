@@ -14,3 +14,8 @@ GTF: https://ftp.ensembl.org/pub/release-91/gtf/homo_sapiens/Homo_sapiens.GRCh38
 ```
 - featureCounts is a program that counts how many reads map to genomic features, such as genes, exon, promoter and genomic bins.
 ***
+
+# Results
+- metadata.xlsx comprises essential sample and grouping details.
+- raw_counts.xlsx represents the gene expression data obtained through the aforementioned processing methods. These counts serve as the foundation for conducting differential expression analysis, allowing for the identification of genes that exhibit significant changes in expression under different experimental conditions.
+
