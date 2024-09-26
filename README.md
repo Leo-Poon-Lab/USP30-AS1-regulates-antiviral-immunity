@@ -5,11 +5,8 @@
 Long non-coding RNAs (lncRNAs) are groups of regulators that modulate or control biological processes of importance, including inflammation and antiviral immunity. However, what we know about lncRNAs in influenza A virus (IAV) infection induced immune response is limited. By performing a series of virological and biological assays together with bioinformatical approaches, we discovered an interferon-stimulated lncRNA USP30-AS1 as a vital immune regulator that engages inflammatory response in IAV infection.
 ***
 
-# RNAswarm
-RNAswarm is a tool for analyzing SPLASH data. It is a Nextflow pipeline that:
-- Trims (with `fastp`) and maps (with `segemehl`) chimeric reads to a reference genome.
-- Generate heatmaps of interactions between viral segments or/and host transcripts.
-- Compare groups or mutants to identify differentially structured regions (with `DESeq2`)
-- Generate circos plots of potential interactions and potential differentially structured regions.
+# Methods
+- Trim Galore is a wrapper around Cutadapt and FastQC to consistently apply adapter and quality trimming to FastQ files, with extra functionality for RRBS data.
+- HISAT2 is a fast and sensitive alignment program for mapping next-generation sequencing reads (both DNA and RNA) to a population of human genomes as well as to a single reference genome.
+- featureCounts is a program that counts how many reads map to genomic features, such as genes, exon, promoter and genomic bins.
 ***
-
